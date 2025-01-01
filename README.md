@@ -1,5 +1,6 @@
 ## Project Sturcture
 
+```
 prng_project/
 │
 ├── prng/                   # Main package
@@ -42,40 +43,41 @@ prng_project/
 ├── .gitignore              # Git ignore file
 ├── LICENSE                 # License file (optional)
 └── config.yaml             # Configuration file for hyperparameters
-
+```
+---
 
 ### Key Components Explained
 1. Main Package (prng/):
-- Contains the core implementation of your PRNG using GANs.
-- Modules for the generator, discriminator, training pipeline, and utility functions ensure modularity.
+    - Contains the core implementation of your PRNG using GANs.
+    - Modules for the generator, discriminator, training pipeline, and utility functions ensure modularity.
 
 2. Data Directory (data/):
-- Stores raw and processed datasets. Helps in keeping the data organized.
+    - Stores raw and processed datasets. Helps in keeping the data organized.
 
 3. Tests (tests/):
-- Unit and integration tests to validate the implementation.
-- Helps in ensuring reliability.
+    - Unit and integration tests to validate the implementation.
+    - Helps in ensuring reliability.
 
 4. Scripts (scripts/):
-- Standalone scripts for training and evaluating the model. Useful for production and experimentation.
+    - Standalone scripts for training and evaluating the model. Useful for production and experimentation.
 
 5. Notebooks (notebooks/):
-- Use Jupyter notebooks for exploring and testing ideas before integrating them into the main codebase.
+    - Use Jupyter notebooks for exploring and testing ideas before integrating them into the main codebase.
 
 6. Models (models/):
-- Store trained GAN models, making it easy to reload them for evaluation or deployment.
+    - Store trained GAN models, making it easy to reload them for evaluation or deployment.
 
 7. Logs (logs/):
-- Logs for tracking the training and evaluation process, helping with debugging and performance tracking.
+    - Logs for tracking the training and evaluation process, helping with debugging and performance tracking.
 
 8. Dependencies (requirements.txt):
-- List all dependencies required for the project to ensure consistent environments.
+    - List all dependencies required for the project to ensure consistent environments.
 
 9. Setup Script (setup.py):
-- Package your project so others can easily install it using pip.
+    - Package your project so others can easily install it using pip.
 
 10. Configuration (config.yaml):
-- Centralized configuration for hyperparameters and settings, making the code flexible.
+    - Centralized configuration for hyperparameters and settings, making the code flexible.
 
 11. Documentation (README.md):
-- Provide an overview, installation steps, usage instructions, and examples.
+    - Provide an overview, installation steps, usage instructions, and examples.
